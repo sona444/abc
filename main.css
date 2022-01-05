@@ -256,3 +256,14 @@ footer li a{
     color:black;
     text-decoration: none;
 }
+.bbb_viewed_title_container.col-md-3{
+    float:left;
+}
+@media (max-width:768px){
+    .mobi{
+        display:none !important; 
+    }
+    .bbb_viewed_title_container.col-md-3{
+        display:block;
+    }
+}
